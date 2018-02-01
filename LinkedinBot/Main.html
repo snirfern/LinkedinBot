@@ -1,0 +1,187 @@
+<html>
+<title>LinkedinBot</title>
+
+<head>
+
+<style>
+
+body
+{
+
+
+max-height:300px;
+    max-width: 300px;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+ul
+{
+height:100px;
+ padding:0 0 5 2 ;
+list-style: none;
+}
+li
+{
+	vertical-align: center;
+	margin-left:5px;display:block;
+width:500px;
+height:40px;
+}
+img
+{
+
+width:30px;
+height:35px;
+float:left;
+cursor:pointer!important;
+}
+body
+{
+
+height:100px;
+width:500px;
+}
+a
+{
+    text-decoration:none;
+color:black;
+
+}
+
+#Submit:hover
+{
+
+    background-color:#c4c0c0;
+        text-decoration:underline;
+               cursor: hand;
+
+
+
+
+
+}
+
+b
+{
+margin-left:10px;
+font-family:"aharoni";
+
+}
+li:hover
+{
+
+	background-color:#c4c0c0;
+}
+#menu
+{
+
+	display:block;
+}
+
+#rights
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;font-size:10px;
+}
+.info
+{
+
+width:10px;
+height:10px;
+
+
+ width: auto !important;
+  float: none !important;
+  cursor:none!important;
+}
+span
+{
+margin-left:15px;
+	font-size:10px;
+}
+
+.info:hover
+{
+
+
+}
+</style>
+
+    <script type="text/javascript" src="Scripts/background.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+    
+
+function AddLi()
+{
+
+
+var list = document.querySelectorAll('li').length;
+
+if ( list ==4)
+{
+
+var hr = document.createElement('hr');
+hr.setAttribute('id','NewHr');
+
+var input = document.createElement('textarea');
+input.setAttribute("type", "text");
+input.setAttribute("id", "NewInput");
+input.setAttribute('placeholder','Type youre message here');
+input.setAttribute('style','height:250px;margin-top:-45px;width:228px;');
+
+
+var newItem = document.createElement("LI");  
+newItem.setAttribute('id','NewLi');   
+
+
+  
+
+list.insertBefore(newItem, list.childNodes[5]);
+list.insertBefore(input,list.childNodes[6]);
+list.insertBefore(hr,list.childNodes[7]);
+
+}
+else
+{
+var parent = document.getElementById("ul");
+var child = document.getElementById("NewLi");
+var child2 = document.getElementById('NewInput');
+var child3 = document.getElementById("NewHr");
+parent.removeChild(child);
+parent.removeChild(child2);
+parent.removeChild(child3);
+
+
+}
+}
+
+</script>
+
+</head>
+
+<body style="width:232px;">
+
+
+
+<div id = "menu">
+
+<ul id = 'ul' >
+<br><li>  <a href="#"  onclick="AddLi()"><div ><img  id = "Messages"src="Logos/envelop.png"><b>Send Messages </b><img id="FirstInfo" class="info"  title = "Choose message content ->Send'EmAll!"  src="Logos/info.png"><br><span>Send messages to all your connections </span></div></a></li><hr>
+<br><li>  <a href="#" ><div ><img   id = "ConnectionsByCategory" src="Logos/2.png"><b>Add Connections </b><img id = "SecondInfo" class="info" title="Choose people category - > Add'EmAll!" src="Logos/info.png"><br><span>Auto add connections by category</span></div></a></li><hr>
+<br><li>  <a href="#" ><div ><img  id = "PeopleYouMayKnow"src="Logos/3.png"><b> Add people you may know</b>&nbsp;<img  id ="ThirdInfo" class="info"  title="Add'EmALL! "src="Logos/info.png"><br><span>Auto add random people</span></div></a></li><hr>
+
+<span  id = "rights" >--> Created by S-t-r-i-p-e <--</span>
+</ul>
+
+</div>
+
+</body>
+
+
+
+
+</html>

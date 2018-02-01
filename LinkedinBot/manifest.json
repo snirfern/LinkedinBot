@@ -1,0 +1,55 @@
+{
+  "manifest_version": 2,
+
+  "name": "LinkedinBot",
+  "description": "Linkedin AutoBot -Send invitations,Send messages,Add people you may know",
+  "version": "1.0",
+
+  "icons": {
+    "48": "Logos/2.png"
+	
+  },
+
+  "permissions": [
+      "tabs", "<all_urls>", "storage",  "notifications"
+
+         
+
+  ],
+
+  "browser_action": {
+    "default_icon": "Logos/OUT.png",
+    "default_popup": "main.html"
+  },
+
+  "background": {
+    "scripts": ["Scripts/background.js"],
+    "persistent": false
+  },
+ "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/search/results/people/?facetNetwork=%5B%22F%22%5D&origin=MEMBER_PROFILE_CANNED_SEARCH","https://www.linkedin.com/mynetwork/invite-connect/connections/"],
+             "run_at": "document_end",
+
+      "js": ["Scripts/jquery-2.1.4.js","Scripts/script.js", "Scripts/do.js"],
+            
+  "web_accessible_resources": ["Scripts/script.js"]
+    },
+
+  {
+           "matches": ["http://www.linkedin.com/mynetwork/"],
+       "run_at": "document_start",
+     
+      "js": ["Scripts/jquery-2.1.4.js","Scripts/PeopleYouMayKnow.js"]
+    },
+ {
+        "matches": ["http://www.linkedin.com/","https://www.linkedin.com/search/results/people/*"],
+     
+      "js": ["Scripts/InviteAll.js"]
+    }
+
+
+  ]
+
+
+}
