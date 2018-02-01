@@ -10,7 +10,8 @@ Send invitations,Messages,Add peopleYouMayKnow
                   -1-
         - - - - - - - - - - - - 
          *Click Bot popup
-         * Choose message icon and wait for page loading - Do not touch the popup- it will close when in finishes loading
+         * Choose message icon and wait for page loading - Do not touch the popup-
+           it will close when in finishes loading
          *Filter your connections
          *Click Bot popup again
          *Click Messages again
@@ -25,7 +26,8 @@ Send invitations,Messages,Add peopleYouMayKnow
                    -2-
         - - - - - - - - - - - - 
          *Click Bot popup
-         * Choose Add connections icon and wait for page loading - Do not touch the popup - it will close when in finishes loading
+         * Choose Add connections icon and wait for page loading - Do not touch the popup-
+           it will close when in finishes loading
          *Filter your connections
          *Click Bot popup again
          *Click Add connections again
@@ -40,7 +42,8 @@ Send invitations,Messages,Add peopleYouMayKnow
                    -3-
         - - - - - - - - - - - - 
          *Click Bot popup
-         * Choose PeopleYouMayKnow icon and wait for page loading - Do not touch the popup - it will close when in finishes loading
+         * Choose PeopleYouMayKnow icon and wait for page loading - Do not touch the popup-
+           it will close when in finishes loading
          *Leave computer,go back after one hour...
         - - - - - - - - - - - - 
                    -3-
@@ -56,6 +59,14 @@ Send invitations,Messages,Add peopleYouMayKnow
             means if you will send to much per day from same ip
             the invites will not be sent cause of linkedin security mechanizem.
             After such occurance switch your ip \ wait for next day.
+      ----------------------------------------------
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+                -Tools-
+      ----------------------------------------------
+            *Chrome extention - just load it to your extention  
+            *JS-JS-JS-JS-JS-JS-JS-JS-JS-JS-JS
+            
       ----------------------------------------------
 --------------------------------------------------------------------------------------------
 
