@@ -18,8 +18,11 @@ Send invitations,Messages,Add peopleYouMayKnow
          *Leave computer,go back after one hour...
         - - - - - - - - - - - - 
                    -1-
- ----------------------------------------------
- ----------------------------------------------
+        - - - - - - - - - - - - 
+
+
+        - - - - - - - - - - - - 
+
                    -2-
         - - - - - - - - - - - - 
          *Click Bot popup
