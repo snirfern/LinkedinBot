@@ -1,12 +1,10 @@
 # LinkedinBot
 Send invitations,Messages,Add peopleYouMayKnow
-----------------------------------------------
 
 1.   "Messages" - LinkedinBot enables you to send messages to your selected connections automatically
 2.   "Add Connections"  - LinkedinBot enables you to send invites to people by category/keyword/what filter you chose
 3.    "PeopleYouMayKnow" - LinkedinBot enables you to send invites to PoeolpeYouMayKnow
 
---------------------------------------------------------------------------------------------
                   -1-
         - - - - - - - - - - - - 
          *Click Bot popup
